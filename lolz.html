@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css"></style>
+</head>
+<body>
+	<div class="panel">
+
+		<div class="search">
+			<i class="fa-solid fa-magnifying-glass"></i>
+			<input type="search" id="searchBar">
+		</div>
+		<ul id="songList">
+			<li onclick="playSong1()"><p id="name1">Aasma Ko Chukar</p></li>
+			<li onclick="playSong2()"><p id="name2">Brown Munde</p></li>
+			<li onclick="playSong3()"><p id="name3">Pasoori</p></li>
+			<li onclick="playSong4()"><p id="name4">Excuses</p></li>
+			<li onclick="playSong5()"><p id="name5">Industry Baby</p></li>
+			<li onclick="playSong6()"><p id="name6">Hot Bummer</p></li>
+			<li onclick="playSong7()"><p id="name7">Space Cadet</p></li>
+			<li onclick="playSong8()"><p id="name8">We Rollin</p></li>
+			<li onclick="playSong9()"><p id="name9">Too Many Girls</p></li>
+			<li onclick="playSong10()"><p id="name10">Teri Lat Lag Jave Gi</p></li>
+		</ul>
+
+	</div>
+
+	<div class="panel2">
+
+
+	<center><div id="SongNa"><h1 id="songName">Choose Songs From Side List</h1></div>
+	<div class="load" id="load">
+		<div class="inner" id="spanDiv">
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		</div>
+		<div class="cont" onclick="play()" id="cont">
+    		<i class="fas fa-play"></i>
+  		</div>
+  		<div class="seekbar" id="seekBarBox"><input type="range" id="seek-bar" value="0"></div>
+  		<video controls src="jake_gyllenhaal_dancing_meme_template_aafd4548.mp4" id="vid"></video>
+	</div> 
+	<button id="playVidbtn" onclick="playVideo()"><p id="change">Play Video</p></button>
+	<button id="playAudbtn" onclick="playAudio()">Play Audio</button>
+</center> 
+</div>
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
